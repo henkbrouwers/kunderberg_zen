@@ -1,0 +1,14 @@
+{{ $original := .Page.Resources.GetMatch (.Get "src") }}
+
+{{ if $original }}
+    {{ $webp := $original.Process "webp" }}
+    <figure>
+        <img src="{{ $webp.RelPermalink }}" alt="{{ .Get "alt" }}">
+        <figcaption>{{ .Get "alt" }}</figcaption>
+    </figure>
+{{ else }}
+    <figure>
+        <img src="{{ .Get "src" | relURL }}" alt="{{ .Get "alt" }}">
+        <figcaption>{{ .Get "alt" }}</figcaption>
+    </figure>
+{{ end }}

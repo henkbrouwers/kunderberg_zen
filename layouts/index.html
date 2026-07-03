@@ -1,0 +1,11 @@
+{{ define "main" -}}
+<main class="main layout__main">
+  <header>
+    <h1 class="title">{{ .Title }}</h1>
+  </header>
+
+  {{ .Content }}
+  
+  <!-- Hier stoppen we: we voegen GEEN range .Pages toe -->
+</main>
+{{ end -}}

@@ -1,0 +1,47 @@
+baseURL = 'http://example.org/'
+languageCode = 'nl-NL'
+defaultContentLanguage = 'nl'
+title = 'Kunderberg-Complex'
+theme = 'zen'
+
+[languages]
+  [languages.nl]
+    languageName = 'Nederlands'
+    contentDir = 'content/nl'
+    weight = 1
+
+  [languages.nl.menu]
+    [[languages.nl.menu.main]]
+      name = "Home"
+      pageRef = "/"
+      weight = 1
+
+    [[languages.nl.menu.main]]
+      name = "Over ons"
+      pageRef = "/overons"
+      weight = 10
+
+    [[languages.nl.menu.main]]
+      name = "Artikelen"
+      pageRef = "/categories/artikelen" 
+      weight = 20
+
+    [[languages.nl.menu.main]]
+      name = "Flitsnieuws"
+      pageRef = "/categories/flitsnieuws" 
+      weight = 30
+
+    [[languages.nl.menu.main]]
+      name = "Foto's"
+      pageRef = "/fotogalerij"
+      weight = 40
+
+    [[languages.nl.menu.main]]
+      name = "Video's"
+      pageRef = "/videos"
+      weight = 50
+
+    [[languages.nl.menu.main]]
+      name = "Contact"
+      pageRef = "/contact"
+      weight = 60

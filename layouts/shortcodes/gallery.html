@@ -1,0 +1,11 @@
+<div class="gallery-grid">
+  {{/* Pak alle afbeeldingen in de huidige map */}}
+  {{ range .Page.Resources.ByType "image" }}
+    {{ $thumb := .Resize "400x webp" }}
+    <div class="gallery-item">
+      <a href="{{ .RelPermalink }}" target="_blank">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ .Name }}" loading="lazy">
+      </a>
+    </div>
+  {{ end }}
+</div>

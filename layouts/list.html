@@ -1,0 +1,21 @@
+{{ define "main" -}}
+<main class="main layout__main">
+<header>
+<h1 class="title">{{ .Title }}</h1>
+</header>
+
+{{ .Content }}
+
+{{ $paginator := .Paginate (.Pages) -}}
+{{ range $index, $page := $paginator.Pages -}}
+  {{ $page.Render "summary" }}
+  
+  {{/* Voeg alleen een lijn toe als dit NIET het laatste item op de pagina is */}}
+  {{ if ne $index (sub (len $paginator.Pages) 1) }}
+    <hr style="border: 0; border-top: 1px solid #444; margin: 3rem 0;">
+  {{ end }}
+{{ end -}}
+
+{{ partial "pagination-lite.html" . }}
+</main>
+{{ end -}}

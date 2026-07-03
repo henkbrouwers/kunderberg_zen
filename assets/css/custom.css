@@ -1,0 +1,26 @@
+/* Centreer de hoofdinhoud en titel op de homepage */
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Zorg dat de titel en de tekst eronder gecentreerd blijven */
+h1, .content {
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Richt je direct op de artikelen binnen de main content */
+main article {
+    border-bottom: 1px solid #444; 
+    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/* Verwijder de lijn bij het allerlaatste artikel op de pagina */
+main article:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
