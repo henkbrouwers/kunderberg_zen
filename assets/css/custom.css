@@ -1,26 +1,99 @@
-/* Centreer de hoofdinhoud en titel op de homepage */
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+/* ============================================== */
+/* 1. RESET AND FULL-BLEED YELLOW BACKGROUND      */
+/* ============================================== */
+/* Zorgt ervoor dat de hele pagina achtergrondkleur krijgt */
+html, body, .main, .page, .article-page {
+    background-color: #FFF8DC !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-/* Zorg dat de titel en de tekst eronder gecentreerd blijven */
-h1, .content {
-    text-align: center;
+/* ============================================== */
+/* 2. CONTENT CONTAINER (CENTERED)                */
+/* ============================================== */
+.article-content {
+    background-color: #FFF8DC !important;
+    padding: 2rem !important;
+    max-width: 900px;
     margin: 0 auto;
+    border: none !important;
+    color: #333 !important;
 }
 
-/* Richt je direct op de artikelen binnen de main content */
-main article {
-    border-bottom: 1px solid #444; 
-    padding-bottom: 2.5rem;
-    margin-bottom: 2.5rem;
+/* ============================================== */
+/* 3. TABLE BORDERS (VISIBLE)                     */
+/* ============================================== */
+table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    border: 1px solid #444 !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
 }
 
-/* Verwijder de lijn bij het allerlaatste artikel op de pagina */
-main article:last-of-type {
-    border-bottom: none;
-    margin-bottom: 0;
+td, th {
+    border: 1px solid #444 !important;
+    padding: 8px !important;
+}
+
+/* Optioneel: Maak de koprij iets donkerder voor contrast */
+thead tr {
+    background-color: #e6ddb8 !important;
+}
+
+/* ============================================== */
+/* 4. RESPONSIVE IMAGES                           */
+/* ============================================== */
+.article-content img {
+    max-width: 100% !important;
+    height: auto !important;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* ============================================== */
+/* 5. SPECIFIEKE GROENE LIJSTPAGINA FIX           */
+/* ============================================== */
+body.list-page, 
+body.list-page .article-page, 
+body.list-page .article-content {
+    background-color: #006400 !important;
+    color: #ffffff !important;
+}
+
+body.list-page .article-content * {
+    color: #ffffff !important;
+}
+
+/* Align the title and subtitle within the content container */
+.article-header, 
+h1, 
+.article-meta {
+    padding-left: 0 !important; /* Reset any forced padding */
+    margin-left: 0 !important;
+    text-align: left; /* Ensures they stay left-aligned, matching the text */
+}
+
+/* Add internal padding to the header block to match the text body */
+.article-header {
+    padding-bottom: 1rem !important;
+    margin-bottom: 2rem !important;
+    border-bottom: 1px solid #ddd; /* Optional: adds a nice separator */
+}
+
+/* Zorg dat de header (titel/subtitle) in dezelfde container zit als de tekst */
+/* We dwingen de titel/subtitle om de marge en breedte van de content te volgen */
+.article-header {
+    max-width: 900px !important; /* Zelfde breedte als article-content */
+    margin: 0 auto 2rem auto !important; /* Centreert de header met de content */
+    padding-left: 0 !important;
+    text-align: left;
+}
+
+/* Mocht de title/subtitle als losse elementen staan: */
+h1, .article-meta {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 100% !important;
+    max-width: 900px !important;
 }

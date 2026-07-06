@@ -1,0 +1,12 @@
+{{ $img := resources.Get "images/background.jpg" }}
+{{ $webp := $img.Process "webp" }}
+<style>
+  body {
+    background-image: url('{{ $webp.RelPermalink }}');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+  }
+</style>

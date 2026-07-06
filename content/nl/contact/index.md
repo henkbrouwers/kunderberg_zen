@@ -1,11 +1,14 @@
-+++
-title = "Contact gegevens"
-description = "Hoe kunnen jullie ons bereiken?"
-type = "page"
-+++
+---
+title: "Contact gegevens"
+date: 2026-04-01
+description: "Hoe kunnen jullie ons bereiken?"
+type: "page"
+---
 
-<h1>We zijn alleen bereikbaar onder het E-mail adres:
+# Hoe kunnen jullie ons bereiken?
 
-www.kunderbergcomplex.nl
+## We zijn alleen bereikbaar onder het E-mail adres:
 
-Geef daarbij als onderwerp mee de publicatie waarop je wil reageren.</h1>
+# www.kunderbergcomplex@proton.me
+
+## Geef daarbij als onderwerp mee de publicatie waarop je wil reageren.

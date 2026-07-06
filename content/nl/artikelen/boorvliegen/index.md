@@ -1,19 +1,18 @@
-+++
-date = 2025-12-06
-draft = false
-title = "Boorvliegen (Tephritidae) op de Putberg"
-description = "Een overzicht van soorten boorvliegen aangetroffen op de Putberg tussen 2004 en 2025."
-categories = ["Artikelen"]
-+++
-
-## B. Hamers
-
+---
+title: "Boorvliegen (Tephritidae) op de Putberg"
+date: 2025-12-06
+draft: false
+authors: "B. Hamers"
+description: "Een overzicht van soorten boorvliegen aangetroffen op de Putberg tussen 2004 en 2025."
+categories: ["Artikelen"]
+---
 
 ### Inleiding
 
-Boorvliegen zijn over het algemeen kleine vliegen met bijna altijd getekende vleugels en iriserende ogen, d.w.z. dat de oogkleur varieert onder invloed van de invalshoek van het licht en het gezichtspunt van de waarnemer <!--more--> (fig.1). Vrouwtjes zijn herkenbaar aan het uitwendige, niet intrekbare gedeelte van de legboor. Omdat sommige soorten tot de wereldwijd meest schadelijke insecten behoren, wordt er veel onderzoek naar boorvliegen verricht. Op de Putberg zijn vanaf 2004 tot en met 2025 door de auteur 36 soorten boorvliegen aangetroffen.
+Boorvliegen zijn over het algemeen kleine vliegen met bijna altijd getekende vleugels en iriserende ogen, d.w.z. dat de oogkleur varieert onder invloed van de invalshoek van het licht en het gezichtspunt van de waarnemer <!--more--> 
 
-
+{{< figuur src="fig1bijvoetboorvlieg.jpg" alt="Figuur 1: Bijvoetboorvlieg" >}}
+Vrouwtjes zijn herkenbaar aan het uitwendige, niet intrekbare gedeelte van de legboor. Omdat sommige soorten tot de wereldwijd meest schadelijke insecten behoren, wordt er veel onderzoek naar boorvliegen verricht. Op de Putberg zijn vanaf 2004 tot en met 2025 door de auteur 36 soorten boorvliegen aangetroffen.
 
 
 ### Gedrag
@@ -33,7 +32,10 @@ In massakooien gekweekte en gesteriliseerde mannetjes bijvoorbeeld, die in fruit
 
 ### Waardplanten      
 
-Boorvliegen zijn min of meer gebonden aan hun waardplant(en), planten waarop ze meestal verblijven, en waarin de vrouwtjes de eieren leggen, met behulp van een uitschuifbare legboor (fig. 3).
+Boorvliegen zijn min of meer gebonden aan hun waardplant(en), planten waarop ze meestal verblijven, en waarin de vrouwtjes de eieren leggen, met behulp van een uitschuifbare legboor.
+
+{{< figuur src="fig3kleineknoopkruidboorvlieg.jpg" alt="Figuur 3: Kleineknoopkruid boorvlieg, Putberg 2022-2025." >}}
+
 Larven van boorvliegen kunnen in meerdere plantendelen voorkomen, vooral in vruchten, stengels, bladeren en bloemhoofdjes. 
 
 Er zijn specialisten, die maar één soort waardplant gebruiken, boorvliegen die in meerdere soorten waardplanten hun eitjes afzetten en generalisten, die allerlei planten uit verschillende families benutten.
@@ -42,8 +44,6 @@ Een uitschieter vormt de Middellandse-Zeevlieg, waarvan ongeveer 250 soorten waa
 Maar dat schijnt verklaarbaar te zijn, omdat deze “niet geschoten is altijd mis-mentaliteit” mogelijk ervoor gezorgd heeft, dat deze vlieg nu over een zo breed spectrum aan waardplanten kan beschikken.
 
 Een vergaande vorm van specialisatie komt voor in de tropen, in het geslacht Blepharoneura, waar  soorten boorvliegen de eitjes alleen maar afzetten in vrouwelijke bloemen van een bepaalde plant en  andere soorten in alleen maar mannelijke bloemen van dezelfde plantensoort. 
-
-{{< figuur src="fig3kleineknoopkruidboorvlieg.jpg" alt="Figuur 3: Kleine knoopkruidboorvlieg, Putberg 2025." >}}
 
 Als de waardplant commercieel belangrijk is, zijn de bijbehorende larven van boorvliegen schadelijk. In Nederland geldt dit bijvoorbeeld voor de larven van de Europese kersenboorvlieg.
 Om te voorkomen, dat er te veel larven in één kers terechtkomen, en ze elkaar gaan beconcurreren, markeren bij deze soort de vrouwtjes de geïnfecteerde kers na de ei-afzetting met een geurstofje.

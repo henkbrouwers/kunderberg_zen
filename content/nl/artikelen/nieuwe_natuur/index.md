@@ -1,11 +1,11 @@
-+++
-title = "De nieuwe natuur van het Kunderberg-Complex"
-date = 2026-06-20
-description = "Een analyse van de recente ecologische ontwikkelingen."
-categories = ["Flitsnieuws"]
-tags = ["Ecologie", "Kunderberg"]
-draft = false
-+++
+---
+title: "De nieuwe natuur van het Kunderberg-Complex"
+date: 2026-06-20
+description: "Een analyse van de recente ecologische ontwikkelingen."
+categories: ["Flitsnieuws"]
+tags: ["Ecologie", "Kunderberg"]
+draft: false
+---
 
 De gemeente Voerendaal heeft op 5 augustus een 
 nieuw natuurproject openbaar gemaakt dat te lezen is op hun eigen website voerendaal.nl <!--more-->

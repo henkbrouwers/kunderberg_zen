@@ -1,10 +1,10 @@
-+++
-title = "De geschiedenis van het Kunderberg-Complex"
-date = 2026-06-11
-description = "Alles over de breuken en het kalksteen."
-draft = false
-categories = ["artikelen"]
-+++
+---
+title: "De geschiedenis van het Kunderberg-Complex"
+date: "2026-06-11"
+description: "Alles over de breuken en het kalksteen."
+draft: false
+categories: ["artikelen"]
+---
 
 ## De ligging
 Het Kunderberg-Complex is te vinden in de regio Parkstad, tussen Voerendaal en Simpelveld, ten oosten van de autosnelweg A76 in Zuid-Limburg. <!--more--> Het Kunderberg-Complex ligt op de oostrand van het Plateau van Ubachsberg.
