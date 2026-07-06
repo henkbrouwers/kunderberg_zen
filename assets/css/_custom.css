@@ -1,0 +1,29 @@
+/* assets/css/_custom.css */
+
+:root {
+  /* 1. Forceer de light modus en schakel het automatische wisselen uit */
+  color-scheme: light !important;
+  --theme: light !important;
+
+  /* 2. Stel jouw Mosgroene kleur in voor de body en pagina-achtergrond */
+  --color-body-bg: #3e453c !important;
+  --color-page-bg: #3e453c !important;
+
+  /* 3. Zorg dat tekst en titels leesbaar zijn op het mosgroen */
+  --color-text: var(--color-white) !important;
+  --color-headings: var(--color-white) !important;
+
+  /* 4. Optioneel: behoud je gele tekstblokken voor artikelen */
+  /* (Dit werkt alleen als je in je HTML de class 'article-content' gebruikt) */
+}
+
+/* 1. Standaard mosgroene achtergrond voor alle pagina's */
+body {
+    background-color: #3e453c !important;
+}
+
+/* 2. SPECIFIEK voor de homepagina (.front): maak alles transparant */
+body.front, 
+body.front .layout__page {
+    background-color: transparent !important;
+}

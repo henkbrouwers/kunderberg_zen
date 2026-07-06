@@ -1,8 +1,8 @@
 {{ $img := resources.Get "images/background.jpg" }}
-{{ $webp := $img.Process "webp" }}
+{{ if $img }}
 <style>
   body {
-    background-image: url('{{ $webp.RelPermalink }}');
+    background-image: url('{{ $img.RelPermalink }}');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,3 +10,8 @@
     height: 100vh;
   }
 </style>
+{{ else }}
+  <style>
+    body { background-color: #4a5d4e; }
+  </style>
+{{ end }}

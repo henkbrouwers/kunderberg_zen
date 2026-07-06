@@ -1,7 +1,6 @@
 /* ============================================== */
 /* 1. RESET AND FULL-BLEED YELLOW BACKGROUND      */
 /* ============================================== */
-/* Zorgt ervoor dat de hele pagina achtergrondkleur krijgt */
 html, body, .main, .page, .article-page {
     background-color: #FFF8DC !important;
     margin: 0 !important;
@@ -36,7 +35,6 @@ td, th {
     padding: 8px !important;
 }
 
-/* Optioneel: Maak de koprij iets donkerder voor contrast */
 thead tr {
     background-color: #e6ddb8 !important;
 }
@@ -52,48 +50,52 @@ thead tr {
 }
 
 /* ============================================== */
-/* 5. SPECIFIEKE GROENE LIJSTPAGINA FIX           */
+/* 5. GECONSOLIDEERDE GROENE LIJSTPAGINA FIX      */
 /* ============================================== */
+/* De marges en de achtergrond worden mosgroen */
 body.list-page, 
-body.list-page .article-page, 
-body.list-page .article-content {
-    background-color: #006400 !important;
+body.list-page .page.layout_page,
+body.list-page .main,
+body.list-page .layout__page {
+    background-color: #3e453c !important;
     color: #ffffff !important;
+}
+
+/* Zorg dat de algemene titels/links in het groen wit zijn */
+body.list-page > h1,
+body.list-page > h2,
+body.list-page > p,
+body.list-page a {
+    color: #ffffff !important;
+}
+
+/* BELANGRIJK: Zorg dat het tekstblok in het midden wél geel blijft met donkere tekst */
+body.list-page .article-content {
+    background-color: #FFF8DC !important;
+    color: #333 !important;
 }
 
 body.list-page .article-content * {
-    color: #ffffff !important;
+    color: #333 !important;
 }
 
-/* Align the title and subtitle within the content container */
-.article-header, 
-h1, 
-.article-meta {
-    padding-left: 0 !important; /* Reset any forced padding */
-    margin-left: 0 !important;
-    text-align: left; /* Ensures they stay left-aligned, matching the text */
-}
-
-/* Add internal padding to the header block to match the text body */
+/* ============================================== */
+/* 6. HEADER EN CONTENT ALIGNMENT                 */
+/* ============================================== */
 .article-header {
     padding-bottom: 1rem !important;
     margin-bottom: 2rem !important;
-    border-bottom: 1px solid #ddd; /* Optional: adds a nice separator */
-}
-
-/* Zorg dat de header (titel/subtitle) in dezelfde container zit als de tekst */
-/* We dwingen de titel/subtitle om de marge en breedte van de content te volgen */
-.article-header {
-    max-width: 900px !important; /* Zelfde breedte als article-content */
-    margin: 0 auto 2rem auto !important; /* Centreert de header met de content */
+    border-bottom: 1px solid #ddd;
+    max-width: 900px !important;
+    margin: 0 auto 2rem auto !important;
     padding-left: 0 !important;
     text-align: left;
 }
 
-/* Mocht de title/subtitle als losse elementen staan: */
 h1, .article-meta {
     margin-left: auto !important;
     margin-right: auto !important;
     width: 100% !important;
     max-width: 900px !important;
+    text-align: left;
 }

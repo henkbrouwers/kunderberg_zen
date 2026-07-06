@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Language.Lang }}">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ .Title }} | {{ .Site.Title }}</title>
-    <!-- Hier koppelen we jouw CSS die we eerder in static/css/style.css hebben gezet -->
-    <link rel="stylesheet" href="/css/style.css">
+    {{ $custom := resources.Get "css/_custom.css" }}
+    <link rel="stylesheet" href="{{ $custom.RelPermalink }}">
 </head>
 <body>
     <header>

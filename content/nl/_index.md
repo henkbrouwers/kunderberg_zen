@@ -1,6 +1,5 @@
 ---
-title: ""
-headless: true
+title: "Home"
 ---
 Welkom bij de website van het Kunderberg-Complex.  
 
